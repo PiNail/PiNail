@@ -30,8 +30,8 @@ gpio_air  = 9   # Switches 0-phase det. solid-state-relay
 gpio_door = 18
 
 ### Thermocouple Adapter selection (MAX31855 or MAX6675)
-max31855 = 1
-max6675 = 0
+max31855 = 0
+max6675 = 1
 
 ### Thermocouple I2C Connection
 gpio_sensor_cs = 27
